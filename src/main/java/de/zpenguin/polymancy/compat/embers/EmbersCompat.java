@@ -67,8 +67,8 @@ public class EmbersCompat implements IPolyCompat {
                 .setText("research.EMBERS.stage.0")
                 .build()
         };
-        parents = new String[] {"FIRSTSTEPS"};
-        ResearchHelper.makeResearch("EMBERS", "POLYMANCY", "Discovering Ember", 3, -6, PolyCompat.getItem("embers:codex", 0), stages, parents, ROUND, AUTOUNLOCK);
+        parents = new String[] {"POLYMANCY"};
+        ResearchHelper.makeResearch("EMBERS", "POLYMANCY", "Discovering Ember", 3, -6, PolyCompat.getItem("embers:codex", 0), stages, parents, ROUND);
 
         // Emberwell
         stages = new ResearchStage[] {
