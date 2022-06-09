@@ -49,7 +49,7 @@ public class PolyResearch {
                 .build()
         };
         parents = new String[] {"BASETHAUMATURGY"};
-        ResearchHelper.makeResearch("POLYMANCY", "POLYMANCY", "Discovering Polymancy", 0, 0, iconPolymancy, stages, parents, ROUND);
+        ResearchHelper.makeResearch("POLYMANCY", "Discovering Polymancy", 0, 0, iconPolymancy, stages, parents, ROUND);
 
         // Infernal Rod
         stages = new ResearchStage[] {
