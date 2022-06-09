@@ -73,8 +73,8 @@ public class BotaniaCompat implements IPolyCompat {
                 .setText("research.BOTANIA.stage.0")
                 .build()
         };
-        parents = new String[] {"FIRSTSTEPS"};
-        ResearchHelper.makeResearch("BOTANIA", "POLYMANCY", "Discovering Botania", 3, 6, new ItemStack(ModItems.lexicon), stages, parents, ROUND, AUTOUNLOCK);
+        parents = new String[] {"POLYMANCY"};
+        ResearchHelper.makeResearch("BOTANIA", "POLYMANCY", "Discovering Botania", 3, 6, new ItemStack(ModItems.lexicon), stages, parents, ROUND);
 
         // Mana Well
         stages = new ResearchStage[] {
@@ -83,7 +83,7 @@ public class BotaniaCompat implements IPolyCompat {
                 .build()
         };
         parents = new String[] {"BOTANIA"};
-        ResearchHelper.makeResearch("MANAWELL", "POLYMANCY", "Botanurgist's Inkwell", 4, 4, new ItemStack(ModItems.manaInkwell), stages, parents, AUTOUNLOCK);
+        ResearchHelper.makeResearch("MANAWELL", "POLYMANCY", "Botanurgist's Inkwell", 4, 4, new ItemStack(ModItems.manaInkwell), stages, parents);
 
 
         // Livingwood Rod
