@@ -79,8 +79,8 @@ public class BloodMagicCompat implements IPolyCompat {
                 .setText("research.BLOODMAGIC.stage.0")
                 .build()
         };
-        parents = new String[] {"FIRSTSTEPS"};
-        ResearchHelper.makeResearch("BLOODMAGIC", "POLYMANCY", "Discovering Blood Magic", -3, 6, PolyCompat.getItem("guideapi:bloodmagic-guide", 0), stages, parents, ROUND, AUTOUNLOCK);
+        parents = new String[] {"POLYMANCY"};
+        ResearchHelper.makeResearch("BLOODMAGIC", "POLYMANCY", "Discovering Blood Magic", -3, 6, PolyCompat.getItem("guideapi:bloodmagic-guide", 0), stages, parents, ROUND);
 
         // Bloodwell
         stages = new ResearchStage[] {
